@@ -34,7 +34,7 @@ namespace First
             {
                 case 1: // !!!Verwijder de commentaartag voor de oefening(en) die je wil testen!!!
 
-                    //Console.WriteLine("ZetOmCm \t\t 24.13 \t\t\t " + Oef1_functies.ZetOmCm(9.5));
+                    //Console.WriteLine("ZetOmCm \t\t 24.13 \t\t\t " + Oef1_functies.ZetOmCm(9.5f));
 
                     //Console.WriteLine("BerekenOppRh \t\t 41.34 \t\t\t " + Oef1_functies.BerekenOppRh(5.3, 7.8));
 
