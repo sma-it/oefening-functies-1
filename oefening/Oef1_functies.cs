@@ -9,7 +9,7 @@ namespace First
     class Oef1_functies
     {
 
-        /* Functie 1: Maak een functie ZetOmCm() die een afstand in inch omzet in cm omzet. De afstand in inch kan een kommagetal zijn.
+        /* Functie 1: Maak een functie ZetOmCm() die een afstand in inch omzet in cm. De afstand in inch kan een kommagetal zijn.
          * Rond af op 2 getallen na de komma.
          * Opm.: Omzetting inch -> cm: 1 inch= 2.54 cm
         */
