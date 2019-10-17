@@ -14,9 +14,9 @@ namespace First
             int oefreeksNr;
             do
             {
-                Console.WriteLine("Nummer oefeningenreeks? (1-2-3)");
+                Console.WriteLine("Nummer oefeningenreeks? (1-2)");
                 oefreeksNr = Convert.ToInt32(Console.ReadLine());
-                if (oefreeksNr != 1 && oefreeksNr != 2 && oefreeksNr != 3)
+                if (oefreeksNr != 1 && oefreeksNr != 2)
                 {
                     Console.WriteLine("Ongeldig nummer");
                     continue;
