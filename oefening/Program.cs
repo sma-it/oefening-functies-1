@@ -89,61 +89,7 @@ namespace First
 
                     break;
 
-                case 3:
-
-                    int getal1 = 10;
-                    int getal2 = 20;
-                    Oef3_functies.VerwisselGetal(ref getal1, ref getal2);
-                    Console.WriteLine("Oefening 1  \t Verwacht Resultaat \tJouw Resultaat");
-                    Console.WriteLine("VerwisselGetal \t 20 10 \t\t\t" + getal1 + " " + getal2);
-                    Console.WriteLine();
-
-                    int a = 5;
-                    double fac = 0;
-                    Oef3_functies.BerekenFac(a, ref fac);
-                    Console.WriteLine("Oefening 2  \t Verwacht Resultaat \tJouw Resultaat");
-                    Console.WriteLine("BerekenFac \t 120 \t\t\t" + fac);
-                    Console.WriteLine();
-
-                    int min = 0;
-                    int max = 0;
-                    int[] nummers = new int[] { 5, -3, -7, 3, 8, -1, 9, 10, -6, -7 };
-                    Oef3_functies.VindMinMax(nummers, ref min, ref max);
-                    Console.WriteLine("Oefening 3  \t Verwacht Resultaat \tJouw Resultaat");
-                    Console.WriteLine("VindMinMax \t -7 10 \t\t\t" + min + " " + max);
-                    Console.WriteLine();
-
-                    int[] getallen = new int[] { 5, -3, -7, 3, 8, -1, 9, 10, -6, -7 };
-                    int[] negGetallen = new int[5];
-                    int[] posGetallen = new int[5];
-                    Oef3_functies.SplitsArray(getallen, ref negGetallen, ref posGetallen);
-                    Console.WriteLine("Oefening 4 SplitsArray");
-                    Console.WriteLine("Verwacht Resultaat:");
-                    Console.WriteLine("Negatieve array: ");
-                    Console.WriteLine("-3 -7 -1 -6 -7");
-                    Console.WriteLine("Positieve array: ");
-                    Console.WriteLine("5 3 8 9 10");
-                    Console.WriteLine("Jouw resultaat");
-                    Console.WriteLine("Negatieve array: ");
-                    foreach (int g in negGetallen) { Console.Write(g + " "); }
-                    Console.WriteLine();
-                    Console.WriteLine("Positieve array: ");
-                    foreach (int g in posGetallen) { Console.Write(g + " "); }
-                    Console.WriteLine("\n\n");
-
-                    int[] integers = new int[] { 5, -3, -7, 3, 8, -1, 9, 10, -6, -7 };
-                    Oef3_functies.VerschuifArray(integers);
-                    Console.WriteLine("Oefening 5 VerschuifArray");
-                    Console.WriteLine("Verwacht Resultaat:");
-                    Console.WriteLine("-3 -7 3 8 -1 9 10 -6 -7 5");
-                    Console.WriteLine("Jouw resultaat");
-                    foreach (int g in integers) { Console.Write(g + " "); }
-                    Console.WriteLine("\n\n");
-
-                    break;
-
             }
-
             Console.ReadKey();
         }
 
